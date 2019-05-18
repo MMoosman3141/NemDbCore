@@ -11,6 +11,9 @@
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
     <PackageIconUrl>https://github.com/MMoosman3141/NemMvvm/blob/master/NemMvvm/NemAnkh.ico?raw=true</PackageIconUrl>
     <PackageTags>Sql_Server Database ADO.NET</PackageTags>
+    <PackageProjectUrl>https://github.com/MMoosman3141/NemDbCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MMoosman3141/NemDbCore</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
