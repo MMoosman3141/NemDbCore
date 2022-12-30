@@ -7,18 +7,28 @@
     <FileVersion>1.0.0</FileVersion>
     <Version>1.0.0-beta</Version>
     <Description>Base library providing enhanced ADO.NET functionality as base classes to use in inheritance for specific databases.  Sql Server functionality is provided in this class.</Description>
-    <Copyright>Copyright © 2019</Copyright>
-    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
-    <PackageIconUrl>https://github.com/MMoosman3141/NemMvvm/blob/master/NemMvvm/NemAnkh.ico?raw=true</PackageIconUrl>
+    <Copyright>Copyright © 2022</Copyright>
     <PackageTags>Sql_Server Database ADO.NET</PackageTags>
     <PackageProjectUrl>https://github.com/MMoosman3141/NemDbCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/MMoosman3141/NemDbCore</RepositoryUrl>
-    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryType>git</RepositoryType>
+    <Nullable>disable</Nullable>
+    <Authors>Mark Moosman</Authors>
+    <PackageIcon>NemAnkh_128x128.png</PackageIcon>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <AnalysisLevel>6.0</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NemMvvm" Version="1.3.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NemAnkh_128x128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
