@@ -79,10 +79,8 @@ public abstract class DbBase : NotifyPropertyChanged, IDisposable {
 
   public void Dispose() {
     GC.SuppressFinalize(this);
-    if (ConnectionObject is not null) {
-      ConnectionObject.Dispose();
-      ConnectionObject = null;
-    }
+    ConnectionObject?.Dispose();
+    ConnectionObject = null;
   }
 
 }
