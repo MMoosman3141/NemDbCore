@@ -212,7 +212,7 @@ public class DbSqlServerSettings : DbSettings {
   }
 
   public DbSqlServerSettings() {
-    _strBuilder = new SqlConnectionStringBuilder();
+    _strBuilder = [];
   }
 
 }
