@@ -1,6 +1,6 @@
 ﻿using NemMvvm;
 using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Linq;
@@ -78,9 +78,9 @@ public abstract class DbBase : NotifyPropertyChanged, IDisposable {
   }
 
   public void Dispose() {
-    GC.SuppressFinalize(this);    
+    GC.SuppressFinalize(this);
     ConnectionObject?.Dispose();
-    ConnectionObject = null;    
+    ConnectionObject = null;
   }
 
 }
